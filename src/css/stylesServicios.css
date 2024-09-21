@@ -1,0 +1,81 @@
+/* Estilos Generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background-color: #f4f4f4;
+}
+
+a {
+  text-decoration: none;
+  color: #3498db;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Encabezado */
+header {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+header .header-top {
+  text-align: center;
+}
+
+header img.img3 {
+  width: 100px;
+  height: auto;
+}
+
+header .titulo {
+  margin: 10px 0;
+  font-size: 2em;
+  color: #333;
+}
+
+/* Artículo de Servicios */
+article.listas {
+  padding: 20px;
+}
+
+.presentacion {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.presentacion img {
+  width: 100%;
+  height: auto;
+  max-width: 300px;
+  object-fit: cover;
+}
+
+.contenido {
+  padding: 20px;
+  font-size: 1.1em;
+  color: #666;
+}
+
+.reparar {
+  margin-top: 10px;
+}
+
+/* Footer */
+footer {
+  background-color: #f8f9fa;
+  padding: 10px;
+  text-align: center;
+  border-top: 1px solid #ddd;
+  font-size: 0.9em;
+  color: #666;
+}

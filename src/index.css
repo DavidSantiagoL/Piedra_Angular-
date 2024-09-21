@@ -1,0 +1,83 @@
+/* index.css */
+
+/* Reinicio básico de estilos */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilo global de fuente */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f4f4f4;
+}
+
+/* Estilo del contenedor principal */
+#root {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Estilo para enlaces */
+a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Estilo de los botones */
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+/* src/index.css o src/css/styles.css */
+
+/* Estilos del encabezado */
+header {
+  background-color: #f8f9fa; /* Cambia el color de fondo según tu diseño */
+  padding: 10px 0; /* Ajusta el padding según tu diseño */
+  border-bottom: 1px solid #ddd; /* Opcional: línea separadora */
+}
+
+/* Estilos de la navegación */
+nav {
+  background-color: #e9ecef;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  font-size: 1.2em;
+  color: #3498db;
+  text-decoration: none; /* Elimina el subrayado por defecto */
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
